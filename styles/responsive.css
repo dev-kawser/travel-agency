@@ -165,4 +165,11 @@
     .newsletter-img .offer {
         display: none;
     }
+    /* newsletter section end */
+    
+    /* footer start */
+    .footer-content p{
+        width: 287px;
+    }
+    /* footer end */
 }

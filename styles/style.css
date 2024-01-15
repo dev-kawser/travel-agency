@@ -388,3 +388,52 @@ p {
 }
 
 /* newsletter section end */
+
+/* footer section start */
+footer{
+    background: rgba(19, 19, 24, 0.05);
+    text-align: center;
+}
+.footer-content{
+    max-width: 1170px;
+    max-height: 502px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+.footer-img {
+    width: 50px;
+}
+
+.footer-title h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+.footer-content p{
+    color: #5A5A5D;
+    display: inline-block;
+    width: 769px;
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+.footer-content .copyright{
+    margin-top: 70px;
+    color: #131318;
+}
+.footer-icon a{
+    padding-right: 10px;
+    font-size: 1.5rem;
+    color: #131318;
+}
+/* footer section end */
