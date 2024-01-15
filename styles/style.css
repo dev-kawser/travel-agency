@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;700;800&display=swap');
+
+/* general styles goes here */
+.hide {
+    display: none;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+.container {
+    max-width: 1170px;
+    margin: 80px auto;
+}
+
+.spacial {
+    color: #FF5400;
+}
+
+.btn-primary {
+    width: 170px;
+    border-radius: 8px;
+    background: #FF5400;
+    color: #fff;
+    padding: 15px 34px;
+    border: none;
+    font-weight: 700;
+}
+
+/* header styles */
+/* nav styles start */
+.nav-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.logo-title h3 {
+    color: #131318;
+    font-size: 2rem;
+    font-weight: 800;
+}
+
+.link ul {
+    display: flex;
+    gap: 44px;
+}
+
+.link ul li {
+    list-style: none;
+}
+
+.link ul li a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 1.1rem;
+    font-weight: 400;
+}
+
+/* nav styles end */
+
+
+/* main styles goes here */
+
+/* banner section start */
+.banner-container {
+    text-align: center;
+    border-radius: 16px;
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    height: 500px;
+}
+
+.banner-container h1 {
+    padding-top: 100px;
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.banner-container p {
+    padding-top: 24px;
+    padding-bottom: 45px;
+    display: inline-block;
+    max-width: 676px;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.banner-main {
+    background: rgba(255, 255, 255, 0.30);
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.banner-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+
+.select {
+    border: none;
+    appearance: none;
+    padding: 15px 35px;
+    color: rgba(19, 19, 24, 0.50);
+    background-color: #fff;
+    border-radius: 8px;
+    width: 170px;
+}
+
+.when {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 52px;
+    width: 170px;
+}
+
+.when .banner-icon {
+    position: absolute;
+    right: 8px;
+}
+
+.type {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    width: 170px;
+}
+
+.type .banner-icon {
+    position: absolute;
+    right: 8px;
+}
+
+.banner-icon i {
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.btn-primary i {
+    margin-right: 5px;
+}
+
+/* banner section end */

@@ -1,0 +1,22 @@
+@media screen and (max-width:600px) {
+    .banner-container {
+        margin: 20px 20px;
+        width: 90%;
+        background-position: cover;
+        object-fit: cover;
+    }
+
+    .banner-container h1 {
+        padding-top: 50px;
+        font-size: 20px;
+    }
+
+    .banner-container p {
+        font-size: 13px;
+        width: 90%;
+    }
+
+    .banner-item {
+        flex-direction: column;
+        gap: 10px;
+    }
