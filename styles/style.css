@@ -31,6 +31,12 @@
     font-weight: 700;
 }
 
+.section-title {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
 .section-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
@@ -165,7 +171,7 @@
 }
 
 .btn-primary i {
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 /* banner section end */
@@ -178,12 +184,6 @@
     justify-content: space-between;
 }
 
-.tour-info h3 {
-    color: #131318;
-    font-size: 2.5rem;
-    font-weight: 800;
-}
-
 .tour-info h3,
 ul,
 p {
@@ -193,4 +193,41 @@ p {
 .tour-info ul li {
     margin-bottom: 1rem;
 }
+
 /* popular tour section end */
+
+/* destination section start */
+.destination {
+    text-align: center;
+}
+
+.destination .section-title {
+    margin-bottom: 1.5rem;
+}
+
+.destination .section-description {
+    margin-bottom: 3rem;
+    max-width: 643px;
+    display: inline-block;
+}
+
+.destination-img {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.destination-img div {
+    position: relative;
+}
+
+.destination-img div h4 {
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+/* destination section end */
