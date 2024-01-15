@@ -2,6 +2,14 @@
 
 @media screen and (max-width:600px) {
 
+    .section-title {
+        font-size: 1.25rem;
+    }
+
+    .section-description {
+        width: 309px;
+    }
+
     /* banner section start */
     .banner-container {
         margin: 20px 20px;
@@ -23,12 +31,6 @@
     .banner-item {
         flex-direction: column;
         gap: 10px;
-    }
-    .section-title {
-        font-size: 1.25rem;
-    }
-    .section-description{
-        width: 309px;
     }
 
     /* banner section end */
@@ -71,30 +73,65 @@
     /* destination section end */
 
     /* why choose us section start */
-    .choose-us-main{
+    .choose-us-main {
         margin: 20px;
     }
+
     .choose-us-content h3 {
         font-size: 1.25rem;
     }
-    .choose-us-card{
-        grid-template-columns: repeat(1,1fr);
+
+    .choose-us-card {
+        grid-template-columns: repeat(1, 1fr);
     }
-    .choose-us-card .card-3{
+
+    .choose-us-card .card-3 {
         margin: 0;
     }
-    .choose-us-card .card{
+
+    .choose-us-card .card {
         padding: 20px;
         /* width: 250px; */
+        /* width: 335px; */
+
     }
+
     .choose-us-card h4 {
         font-size: 1.2rem;
     }
-    
+
     .choose-us-card p {
         font-size: 14px;
     }
+
     .choose-us-card .icon i {
         font-size: 1rem;
     }
+
+    /* why choose us section end */
+    /* video section start */
+    .video-main{
+        margin: 20px;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .video-main ul{
+        margin-left: 10px;
+    }
+    .video-main h3{
+        width: 70%;
+    }
+    .video-main video {
+        width: 335px;
+        height: 200px;
+    }
+    .main-video h4{
+        font-size: 14px;
+        font-weight: 600;
+        color: #fff;
+        width: 50%;
+        top: 100px;
+        left: 150px;
+    }
+    /* video section end */
 }
