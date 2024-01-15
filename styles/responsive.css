@@ -110,22 +110,26 @@
 
     /* why choose us section end */
     /* video section start */
-    .video-main{
+    .video-main {
         margin: 20px;
         flex-direction: column;
         gap: 1.5rem;
     }
-    .video-main ul{
+
+    .video-main ul {
         margin-left: 10px;
     }
-    .video-main h3{
+
+    .video-main h3 {
         width: 70%;
     }
+
     .video-main video {
         width: 335px;
         height: 200px;
     }
-    .main-video h4{
+
+    .main-video h4 {
         font-size: 14px;
         font-weight: 600;
         color: #fff;
@@ -133,5 +137,32 @@
         top: 100px;
         left: 150px;
     }
+
     /* video section end */
+
+    /* newsletter section start */
+    .newsletter-main {
+        margin: 20px;
+        flex-direction: column;
+    }
+
+    .newsletter-content {
+        width: 100%;
+    }
+
+    .newsletter-main p {
+        width: 270px;
+    }
+
+    .newsletter-main input {
+        width: 288px;
+    }
+
+    .newsletter-img img {
+        width: 100%;
+    }
+
+    .newsletter-img .offer {
+        display: none;
+    }
 }
