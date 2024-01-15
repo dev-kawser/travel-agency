@@ -35,12 +35,16 @@
     color: #131318;
     font-size: 2.5rem;
     font-weight: 800;
+    margin-bottom: 1.5rem;
 }
 
 .section-description {
     color: rgba(19, 19, 24, 0.70);
     font-size: 1rem;
     font-weight: 400;
+    width: 643px;
+    display: inline-block;
+    margin-bottom: 3rem;
 }
 
 /* header styles */
@@ -201,16 +205,6 @@ p {
     text-align: center;
 }
 
-.destination .section-title {
-    margin-bottom: 1.5rem;
-}
-
-.destination .section-description {
-    margin-bottom: 3rem;
-    max-width: 643px;
-    display: inline-block;
-}
-
 .destination-img {
     display: flex;
     flex-wrap: wrap;
@@ -231,3 +225,63 @@ p {
 }
 
 /* destination section end */
+
+/* why choose us section start */
+.choose-us-main {
+    text-align: center;
+}
+
+.choose-us-card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose-us-card .card-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    text-align: start;
+}
+
+.choose-us-card .card-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    text-align: start;
+}
+
+.choose-us-card .card-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    text-align: start;
+    width: 100%;
+    margin: 0 50%;
+}
+
+.choose-us-card .card {
+    padding: 32px;
+}
+
+.choose-us-card h4 {
+    color: #131318;
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.choose-us-card p {
+    color: #5A5A5D;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}
+
+.choose-us-card .icon i {
+    color: #FF5400;
+    font-size: 2rem;
+}
