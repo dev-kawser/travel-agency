@@ -1,4 +1,8 @@
+/* for mobile */
+
 @media screen and (max-width:600px) {
+
+    /* banner section start */
     .banner-container {
         margin: 20px 20px;
         width: 90%;
@@ -20,3 +24,20 @@
         flex-direction: column;
         gap: 10px;
     }
+
+    /* banner section end */
+    /* popular tour section start */
+
+    .popular-tour {
+        margin: 20px;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .tour-img img {
+        object-fit: cover;
+        background-position: cover;
+        width: 99%;
+    }
+    /* popular tour section end */
+}

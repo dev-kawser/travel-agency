@@ -31,6 +31,12 @@
     font-weight: 700;
 }
 
+.section-description {
+    color: rgba(19, 19, 24, 0.70);
+    font-size: 1rem;
+    font-weight: 400;
+}
+
 /* header styles */
 /* nav styles start */
 .nav-content {
@@ -163,3 +169,28 @@
 }
 
 /* banner section end */
+
+/* popular tour section start */
+.popular-tour {
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tour-info h3 {
+    color: #131318;
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.tour-info h3,
+ul,
+p {
+    margin-bottom: 1.5rem;
+}
+
+.tour-info ul li {
+    margin-bottom: 1rem;
+}
+/* popular tour section end */
