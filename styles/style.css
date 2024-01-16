@@ -14,7 +14,7 @@
 
 .container {
     max-width: 1170px;
-    margin: 80px auto;
+    margin: 70px auto;
 }
 
 .spacial {
@@ -290,6 +290,7 @@ p {
     color: #FF5400;
     font-size: 2rem;
 }
+
 /* why choose us section end */
 
 /* discount section start */
@@ -383,6 +384,7 @@ p {
 .discount-btn-main .btn-primary {
     padding: 15px 20px;
 }
+
 /* discount section end */
 
 /* video section styles */

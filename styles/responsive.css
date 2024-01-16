@@ -11,27 +11,33 @@
     }
 
     /* nav section start */
-    
-    .logo{
+
+    .logo {
         margin-left: 30px;
     }
-    .nav-content .link{
+
+    .nav-content .link {
         display: none;
     }
-    .nav-content .responsive-icon{
+
+    .nav-content .responsive-icon {
         display: block;
         margin-right: 30px;
         font-size: 1.5rem;
     }
-    .logo .logo-img img{
+
+    .logo .logo-img img {
         width: 30px;
     }
-    .logo .logo-title{
+
+    .logo .logo-title {
         font-size: 1rem;
     }
+
     /* nav section start */
 
     /* banner section start */
+
     .banner-container {
         margin: 20px 20px;
         width: 90%;
@@ -112,8 +118,6 @@
 
     .choose-us-card .card {
         padding: 20px;
-        /* width: 250px; */
-        /* width: 335px; */
 
     }
 
@@ -130,6 +134,37 @@
     }
 
     /* why choose us section end */
+
+    /* discount section start */
+    .discount-container {
+        width: 335px;
+        margin: 0 auto;
+    }
+
+    .discount-card,
+    .discount-card-middle {
+        padding: 5px;
+        text-align: center;
+    }
+
+    .discount-card-middle,
+    .discount-card {
+        margin-top: 165px;
+        margin-right: 10px;
+        margin-left: 10px;
+    }
+
+    .discount-card-main,
+    .discount-card-main-middle {
+        object-fit: cover;
+        background-position: center;
+        background-size: cover;
+        margin-bottom: 10px;
+        border-radius: 10px;
+    }
+
+    /* discount section end */
+
     /* video section start */
     .video-main {
         margin: 20px;
@@ -140,7 +175,8 @@
     .video-main ul {
         margin-left: 10px;
     }
-    .video-main ul li{
+
+    .video-main ul li {
         width: 300px;
     }
 
@@ -189,11 +225,13 @@
     .newsletter-img .offer {
         display: none;
     }
+
     /* newsletter section end */
-    
+
     /* footer start */
-    .footer-content p{
+    .footer-content p {
         width: 287px;
     }
+
     /* footer end */
 }
