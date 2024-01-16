@@ -162,9 +162,11 @@
         margin-bottom: 10px;
         border-radius: 10px;
     }
+
     .discount-container .icon {
         gap: 10px;
     }
+
     /* discount section end */
 
     /* video section start */
@@ -201,6 +203,23 @@
     }
 
     /* video section end */
+
+    /* blogs styles start */
+    .blogs-main {
+        margin: 20px;
+    }
+
+    .blogs-main .card {
+        margin: 10px auto;
+    }
+
+    .blogs-content {
+        width: 95%;
+        margin: 0 auto;
+        height: 500px;
+    }
+
+    /* blogs styles end */
 
     /* newsletter section start */
     .newsletter-main {

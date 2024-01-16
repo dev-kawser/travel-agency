@@ -302,11 +302,13 @@ p {
     background-image: url('../Images/Group\ 39.png');
     height: 500px;
     text-align: end;
+    margin-bottom: 10px;
 }
 
 .discount-card-main-middle {
     background-image: url('../Images/Group\ 40.png');
     height: 500px;
+    margin-bottom: 10px;
 }
 
 .discount-card {
@@ -425,6 +427,56 @@ p {
 }
 
 /* video section end */
+
+/* blogs styles start */
+.blogs-main {
+    text-align: center;
+}
+
+.blogs-title h2 {
+    color: #131318;
+    font-size: 3rem;
+    font-weight: 800;
+}
+
+.blogs-main .card {
+    margin: 30px auto;
+    text-align: start;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 10px;
+}
+
+.blogs-main .card ul {
+    margin-top: 5px;
+}
+
+.blogs-main .card ul li {
+    margin: 20px;
+}
+
+.blogs-content {
+    border: 2px solid #FF5400;
+    padding: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    max-height: 600px;
+    overflow: auto;
+}
+
+.blogs-main h3 {
+    color: #424247;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+
+.blogs-title p {
+    color: #5A5A5D;
+    margin-top: 20px;
+}
+
+/* blogs styles start */
 
 /* newsletter section start */
 .newsletter-main {
