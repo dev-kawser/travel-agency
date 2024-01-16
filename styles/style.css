@@ -29,6 +29,7 @@
     padding: 15px 34px;
     border: none;
     font-weight: 700;
+    cursor: pointer;
 }
 
 .section-title {
@@ -53,6 +54,10 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.nav-content .responsive-icon {
+    display: none;
 }
 
 .logo {
@@ -96,7 +101,7 @@
 .banner-container {
     text-align: center;
     border-radius: 16px;
-    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url(../Images/Group\ 13\ \(1\)\ \(1\).png);
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0)), url('../Images/Group\ 13\ \(1\)\ \(1\).png');
     height: 500px;
 }
 
@@ -285,8 +290,100 @@ p {
     color: #FF5400;
     font-size: 2rem;
 }
-
 /* why choose us section end */
+
+/* discount section start */
+.discount-content {
+    text-align: center;
+}
+
+.discount-card-main {
+    background-image: url('../Images/Group\ 39.png');
+    height: 500px;
+    text-align: end;
+}
+
+.discount-card-main-middle {
+    background-image: url('../Images/Group\ 40.png');
+    height: 500px;
+}
+
+.discount-card {
+    margin-top: 90px;
+    display: inline-block;
+    margin-right: 20px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 579px;
+    max-height: 389px;
+    text-align: start;
+    padding: 50px;
+}
+
+.discount-card-middle {
+    margin-top: 90px;
+    margin-left: 20px;
+    display: inline-block;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    max-width: 579px;
+    max-height: 389px;
+    padding: 50px;
+}
+
+.discount-container .icon {
+    display: flex;
+    gap: 24px;
+}
+
+.discount-container .icon i {
+    color: #FF5400;
+}
+
+.discount-card,
+.discount-card-middle {
+    padding-bottom: 1.25rem;
+}
+
+.discount-container h4 {
+    color: #131318;
+    font-size: 1.25rem;
+    font-weight: 800;
+}
+
+.discount-container .discount-description {
+    color: #5A5A5D;
+}
+
+.discount-container h5 {
+    color: #FF5400;
+    font-size: 1.25rem;
+    font-weight: 800;
+    margin-bottom: 30px;
+}
+
+.discount-container .discount-btn {
+    color: #FFF;
+    background-color: #FF5400;
+    border-radius: 5px;
+    border: none;
+    padding: 14px 20px;
+    cursor: pointer;
+}
+
+.discount-btn-main {
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.discount-btn-main .btn-primary {
+    padding: 15px 20px;
+}
+/* discount section end */
 
 /* video section styles */
 .video-main {
@@ -302,6 +399,7 @@ p {
 
 .video-main li {
     width: 518px;
+    padding-bottom: 16px;
 }
 
 .video-main video {
@@ -390,11 +488,12 @@ p {
 /* newsletter section end */
 
 /* footer section start */
-footer{
+footer {
     background: rgba(19, 19, 24, 0.05);
     text-align: center;
 }
-.footer-content{
+
+.footer-content {
     max-width: 1170px;
     max-height: 502px;
     margin: 0 auto;
@@ -403,6 +502,7 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 .footer-logo {
     display: flex;
     gap: 15px;
@@ -420,20 +520,24 @@ footer{
     font-size: 2rem;
     font-weight: 800;
 }
-.footer-content p{
+
+.footer-content p {
     color: #5A5A5D;
     display: inline-block;
     width: 769px;
     margin-top: 15px;
     margin-bottom: 30px;
 }
-.footer-content .copyright{
+
+.footer-content .copyright {
     margin-top: 70px;
     color: #131318;
 }
-.footer-icon a{
+
+.footer-icon a {
     padding-right: 10px;
     font-size: 1.5rem;
     color: #131318;
 }
+
 /* footer section end */

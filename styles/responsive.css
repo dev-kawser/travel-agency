@@ -10,6 +10,27 @@
         width: 309px;
     }
 
+    /* nav section start */
+    
+    .logo{
+        margin-left: 30px;
+    }
+    .nav-content .link{
+        display: none;
+    }
+    .nav-content .responsive-icon{
+        display: block;
+        margin-right: 30px;
+        font-size: 1.5rem;
+    }
+    .logo .logo-img img{
+        width: 30px;
+    }
+    .logo .logo-title{
+        font-size: 1rem;
+    }
+    /* nav section start */
+
     /* banner section start */
     .banner-container {
         margin: 20px 20px;
@@ -118,6 +139,9 @@
 
     .video-main ul {
         margin-left: 10px;
+    }
+    .video-main ul li{
+        width: 300px;
     }
 
     .video-main h3 {
