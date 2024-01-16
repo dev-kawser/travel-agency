@@ -569,11 +569,15 @@ footer {
     width: 50px;
 }
 
+
+
 .footer-title h3 {
     color: #131318;
     font-size: 2rem;
     font-weight: 800;
 }
+
+
 
 .footer-content p {
     color: #5A5A5D;
@@ -584,7 +588,7 @@ footer {
 }
 
 .footer-content .copyright {
-    margin-top: 70px;
+    margin-top: 50px;
     color: #131318;
 }
 
